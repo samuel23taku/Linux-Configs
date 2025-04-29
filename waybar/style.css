@@ -1,0 +1,79 @@
+
+* {
+    border-radius: 0;
+    margin-top:1px;
+    /*font-family: "Hack", "Noto Color Emoji", sans-serif;*/
+  font-family: "JetBrainsMono Nerd Font", "FontAwesome", "sans-serif","Noto Color Emoji","Hack";
+    min-height: 0;
+}
+
+#custom-archicon,#custom-power {
+background:#0c2b29;
+border-radius:6px;
+padding:4px;
+margin: 0 5px; /* Add some margin */
+}
+
+
+window#waybar {
+     background-color: transparent;
+     color: #8da7a2;
+     transition-property: background-color;
+     transition-duration: .5s;
+ }
+
+
+#workspaces{
+	background:#0c2b29;
+	padding:1px 2px;
+	border-radius:6px;
+	font-weight: bold;
+	transition-duration: 3s;
+	font-size:8px;
+}
+
+#workspaces button{
+	padding:1px 3px;
+	color:white;
+	border-radius: 6px;
+}
+
+#workspaces button:hover, #custom-archicon:hover{
+	background:transparent;
+	border:1px solid #66FF00;
+}
+#workspaces button.active {
+	background:#00AB66;
+}
+
+
+#custom-power{
+	color:#FF0000;
+	font-size:20px;
+	border:1px solid #66FF00;
+}
+
+#clock{
+	padding-left:10px;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+}
+
+#network{
+	border-top-right-radius:6px;
+	border-bottom-right-radius:6px;
+	padding-right:10px;
+	font-weight:bold;
+}
+
+#battery,#network,#clock{
+	background:#0c2b29;
+	font-size:11px;
+	color:white;
+}
+
+
+#battery{
+	color:#AAFF00;
+	font-weight:bold;
+}
