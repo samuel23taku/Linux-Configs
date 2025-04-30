@@ -3,13 +3,15 @@
 }
 
 window {
-    background-color:red;
+	border: 1px solid #443238 ;
+	border-radius: 12px;
+    background-color: #20222a;
 }
 
 #input {
     margin: 5px;
     border-radius: 4px;
-    background-color: #3B4252;
+    background-color: #0c2b29;
     color: white;
 }
 
@@ -20,7 +22,6 @@ window {
 #outer-box {
     margin: 2px;
     padding: 10px;
-    background-color: #383C4A;
 }
 
 #scroll {
@@ -32,12 +33,9 @@ window {
     color: white;
 }
 
-#entry:nth-child(even){
-    background-color: #404552;
-}
 
 #entry:selected {
-    background-color: #4C566A;
+    background-color: black;
 }
 
 #text:selected {
