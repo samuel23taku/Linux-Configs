@@ -1,4 +1,4 @@
-pacman -Syyu base-devel hyprland waybar hyprpaper snapd wofi wlogout neovim fish git obsidian firefox terminator neofetch libreoffice-still cmake net-tools man-pages man-db --noconfirm
+pacman -Syyu base-devel hyprland waybar hyprpaper snapd wofi neovim fish git obsidian firefox terminator neofetch libreoffice-still cmake net-tools man-pages man-db --noconfirm
 
 #Service enable
 systemctl enable --now snapd.socket
@@ -23,7 +23,6 @@ makepkg -si
 cd ..
 
 
-yay -S wlogout
-yay -S --noconfirm --answerdiff=N --answerclean=N google-chrome
+yay -S --noconfirm --answerdiff=N --answerclean=N google-chrome wlogout
 
 
